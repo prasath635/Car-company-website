@@ -1,0 +1,287 @@
+ html{
+    scroll-behavior: smooth;
+ }
+ .kialogo{
+    display: inline;
+    width: 150px;
+    height: 100px;
+    margin-left: 0px; 
+}
+body{
+margin: 0;
+padding: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-size: cover;
+background-repeat: no-repeat;
+} 
+
+nav{
+background-color:whitesmoke;
+font-size: 20px;
+color: darkblue;
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+nav a{
+text-decoration: none;
+}
+nav li{
+margin: 0 15px;
+display: inline-block;
+}
+nav a:hover{
+color: red;
+text-decoration: underline;
+}
+nav:hover{
+background-color:silver;
+}
+
+.container-line{
+height: 3px;
+width: 20px;
+background-color: blue;
+margin-bottom: 3px;
+}
+.container{
+cursor: pointer;
+display: none;
+}
+.main{
+   width: 100%;
+   display: flex;
+}
+.content{
+   width: 50%;
+   margin-top: 8%;
+   margin-left: 5%;
+   color: black;
+   overflow: hidden;
+}
+.content h1{
+   font-size: 40px;
+   letter-spacing: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.content h3{
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+   padding: 15px 30px;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   font-size: 15px;
+   border-radius: 8px;
+}
+button:hover{
+   background-color: white;
+   color: black;
+}
+.image{
+   width: 50%;
+   margin-top: 10%;
+}
+img{
+   width: 40rem;
+}
+.features{
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content:center;
+    word-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.lights{
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.unorder{
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content:center;
+    word-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.red{
+   width:50px;
+   height: 50px;
+   border: 2px solid black;
+   background-color: white;
+   border-radius: 30px;
+}
+.blue{
+   width:50px;
+   height: 50px;
+   border: 2px solid black;
+   background-color: blue;
+   border-radius: 30px;
+}
+.length{
+   margin-left: 5%;
+}
+     
+
+.buy{
+   background-color:rgb(0, 0, 0);
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+}
+.service{
+   background-color:rgb(0, 0, 0);
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+}
+.contact h4{
+   text-align: center;
+}
+.companylogo{
+       width: 100px;
+       height: 100px;
+       margin-left: 0px;
+       font-weight: 600; 
+}
+.buy a{
+   text-decoration: none;
+   margin: 0 15px;
+   display: inline-block;
+}
+.service a{
+   text-decoration: none; 
+}
+.footercontainer{
+   background-color: black;
+}
+.contact{
+   color: white;
+}
+.us{
+   font-size: 30px;
+}
+.no{
+   margin-left: 100px;
+}
+.subfooter{
+    font-size: 20px;
+   justify-content: center;
+   display: flex;
+   align-items: center; 
+   background-color: black;
+}
+.footerlogo{
+   background: url("https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/pink_transpicttitle_1484336754-1.png");
+   width: 300px;
+   height: 250px;
+   margin: auto;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+@media all  and (max-width:640px){
+   nav{
+       flex-direction: column;
+   }
+   nav li{
+       padding: 15px 0;
+       display: block;
+   }
+   ul{
+       display: none;
+       padding: 0;
+       text-align: center;
+   }
+   .logo{
+       margin: 10px 0px 0px 25px;
+       align-self: flex-start;
+   }
+   .container{
+       display: block;
+       position: absolute;
+       right: 20px;
+       top: 25px;
+   }
+    .showmenu{
+       display: block;
+   } 
+   .content{
+      width: 100%;
+      text-align: center;
+   }
+    .image{
+      width: 100%;
+      position: absolute;
+      bottom: -5%;
+      display: flex;
+      justify-content: center;
+      visibility: hidden;
+   }
+   img{
+      margin: auto;
+      display: block;
+   }
+   .features{
+      justify-content: center;
+   }  
+   .lights{
+      justify-content: center;
+   }
+
+   .length{
+      width: 100%;
+      text-align: center;
+   }
+   .buy{
+      flex-direction: column;
+  }
+  .service{
+      flex-direction: column;
+  }
+  .buy h4{
+         padding: 15px 0;
+         display: block;
+  }  
+  .buy a{
+      padding: 15px 0;
+      display: block;
+  }  
+  .service h4{
+      padding: 15px 0;
+      display: block;
+}  
+  .service a{
+   padding: 15px 0;
+   display: block;
+}  
+.contact{
+  flex-direction: column;
+}
+.contact h4{
+    padding: 15px 0;
+    display: block;
+}
+.contact p{
+  padding: 15px 0;
+  display: block;
+}
+.contact h5{
+  padding: 15px 0;
+  display: block;
+}
+.footerlogo{
+  width: 150px;
+  height: 100px;
+}
+}

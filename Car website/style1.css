@@ -1,0 +1,237 @@
+html{
+    scroll-behavior: smooth;
+}
+.kialogo{
+        display: inline;
+        width: 150px;
+        height: 100px;
+        margin-left: 0px;  
+}
+ body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+nav{
+    background-color:whitesmoke;
+    font-size: 20px;
+    color: darkblue;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+nav a{
+    text-decoration: none;
+}
+nav li{
+    margin: 0 15px;
+    display: inline-block;
+}
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+nav:hover{
+   background-color:silver;
+}
+
+.container-line{
+    height: 3px;
+    width: 20px;
+    background-color: blue;
+    margin-bottom: 3px;
+}
+.container{
+    cursor: pointer;
+    display: none;
+}
+.picture{
+    height: 700px;
+    background:url("./67413.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.picture3{
+    height: 700px;
+    background: url("./67354.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture2{
+    width: 50vw;
+    height: 500px;
+    background: url("https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/pink_transpicttitle_1484336754-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+button{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background-color:black;
+    color:white;
+    margin:auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+.book{
+    display: block;
+    margin-top: 10px;
+    margin: aut0;
+}
+button:hover{
+    background-color: white;
+    color: black; 
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content:center;
+    word-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.buy{
+    background-color:rgb(0, 0, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.service{
+    background-color:rgb(0, 0, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact h4{
+    text-align: center;
+}
+.companylogo{
+        width: 100px;
+        height: 100px;
+        margin-left: 0px;
+        font-weight: 600; 
+}
+.buy a{
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+}
+.service a{
+    text-decoration: none; 
+}
+.footercontainer{
+    background-color: black;
+}
+.contact{
+    color: white;
+}
+.us{
+    font-size: 30px;
+}
+.no{
+    margin-left: 100px;
+}
+.subfooter{
+     font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    background-color: black;
+}
+.footerlogo{
+    background: url("https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/pink_transpicttitle_1484336754-1.png");
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+@media all and (max-width:640px){
+    nav{
+        flex-direction: column;
+    }
+    nav li{
+        padding: 15px 0;
+        display: block;
+    }
+    ul{
+        display: none;
+        padding: 0;
+        text-align: center;
+    }
+    .logo{
+        margin: 10px 0px 0px 25px;
+        align-self: flex-start;
+    }
+    .container{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+    }
+     .showmenu{
+        display: block;
+    } 
+    p{
+        justify-content: center;
+    }
+    .buy{
+        flex-direction: column;
+    }
+    .service{
+        flex-direction: column;
+    }
+    .buy h4{
+           padding: 15px 0;
+           display: block;
+    }  
+    .buy a{
+        padding: 15px 0;
+        display: block;
+    }  
+    .service h4{
+        padding: 15px 0;
+        display: block;
+ }  
+    .service a{
+     padding: 15px 0;
+     display: block;
+ }  
+ .contact{
+    flex-direction: column;
+ }
+ .contact h4{
+      padding: 15px 0;
+      display: block;
+ }
+ .contact p{
+    padding: 15px 0;
+    display: block;
+ }
+ .contact h5{
+    padding: 15px 0;
+    display: block;
+ }
+ .footerlogo{
+    width: 150px;
+    height: 100px;
+ }
+}
